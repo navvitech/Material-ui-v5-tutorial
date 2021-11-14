@@ -1,28 +1,54 @@
 import "./App.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import IconButton from "@mui/material/IconButton";
+// import { Avatar } from "@mui/material";
+import Avatar from "@mui/material/Avatar";
+import AvatarGroup from "@mui/material/AvatarGroup";
 
-//? 1)predefined
-//? 2)style
-//? 3)sx
-
-//! IconButton
+//? letter avatar
+//? icon
+//? image
+//? instgram story
+//? avatra grp
 
 function App() {
   return (
     <div className="App">
       <h1>Material UI</h1>
-      <IconButton sx={{ color: "red" }}>
-        <FacebookIcon color="warning" fontSize="large" />
-      </IconButton>
-      <IconButton>
-        <WhatsAppIcon style={{ color: "green", fontSize: 70 }} />
-      </IconButton>
-      <IconButton>
-        <YouTubeIcon sx={{ color: "red", fontSize: 70 }} />
-      </IconButton>
+      <Avatar
+        sx={{
+          bgcolor: "transparent",
+          border: "3px solid blue",
+          color: "blue",
+          fontWeight: 600,
+        }}
+        variant="rounded"
+      >
+        N
+      </Avatar>
+      <Avatar>
+        <FacebookIcon />
+      </Avatar>
+      <Avatar
+        src="https://images.news18.com/ibnlive/uploads/2021/07/1627377451_nature.jpg"
+        alt="React"
+        sx={{
+          width: 150,
+          height: 150,
+          border: "3px solid red",
+          padding: 0.5,
+        }}
+        imgProps={{ style: { borderRadius: "50%" } }}
+        // variant="circular"
+      />
+      <AvatarGroup max={3} spacing={15} sx={{ width: "300px" }}>
+        <Avatar />
+        <Avatar />
+        <Avatar />
+        <Avatar />
+        <Avatar />
+        <Avatar />
+        <Avatar />
+      </AvatarGroup>
     </div>
   );
 }

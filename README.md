@@ -1,6 +1,12 @@
 # Material UI v5
 
-Here the code is splitted into different branches. Each branch corresponds to a particular video on the playlist.
+Here the code is splitted into different branches. Each branch corresponds to a particular video on the playlist(number in the branch name corresponds to the number on the playlist).
+
+| Branch | Video |
+|---|---|
+|tutorial-2(installation)|video number 2 in the playlist https://youtu.be/3UShXuCYJ2I|
+| tutorial_3_4| video number 3&4 |
+|tutorial_5| video number 5 https://youtu.be/HJJke-B3CeQ|
 
 # Getting Started with Create React App
 

@@ -5,7 +5,7 @@ Here the code is splitted into different branches. Each branch corresponds to a 
 | Branch | Video |
 |---|---|
 |tutorial-2(installation)|video number 2 in the playlist https://youtu.be/3UShXuCYJ2I|
-| tutorial_3_4| video number 3(https://youtu.be/AtkkPNeqxUo)&4(https://youtu.be/4FfOhYMC1us)|
+| tutorial_3_4| video number 3(https://youtu.be/AtkkPNeqxUo) & 4(https://youtu.be/4FfOhYMC1us)|
 |tutorial_5| video number 5 https://youtu.be/HJJke-B3CeQ|
 
 # Getting Started with Create React App

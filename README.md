@@ -9,7 +9,7 @@ Here the code is splitted into different branches. Each branch corresponds to a 
 |tutorial_5(Avatar)| video number 5 https://youtu.be/HJJke-B3CeQ <br/> <strong>About:</strong> `Avatar` component|
 |tutorial_6(Button)| video number 6 https://youtu.be/0RhKw16Qtag <br/> <strong>About:</strong> `Button` component|
 
-# video - 2
+# [video - 2](https://youtu.be/3UShXuCYJ2I)
 ## Installation guide
 
 npm: `npm install @mui/material @emotion/react @emotion/styled`\
